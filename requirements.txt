@@ -1,4 +1,4 @@
 pymongo
-sklearn.feature_extraction.text
+sklearn
 subprocess
 sys
