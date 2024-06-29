@@ -1,4 +1,4 @@
 pymongo
-sklearn
+scikit-learn
 subprocess
 sys
