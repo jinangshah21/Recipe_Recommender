@@ -31,7 +31,7 @@ def run_python_file(username, file_path):
         print(f"Error: {e}")
 
 # Connect to MongoDB
-client = pymongo.MongoClient("mongodb+srv://jinang2110:jinu2110@cluster0.3aodk9n.mongodb.net/?retryWrites=true&w=majority&appName=cluster0",server_api=pymongo.server_api.ServerApi('1'))
+client = pymongo.MongoClient("mongodb+srv://jinang2110:jinu2110@cluster0.3aodk9n.mongodb.net/?retryWrites=true&w=majority&ssl=true",server_api=pymongo.server_api.ServerApi('1'))
 db = client["Users_Recipe_Recommendation"]
 users_collection = db["Users_Profile"]
 recipes_collection = db["Food_Recipe"]
